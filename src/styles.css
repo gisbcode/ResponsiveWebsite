@@ -27,6 +27,12 @@ body {
 section {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 100px 0;
+    margin-left: 20px;
+}
+
+main {
+    background-color: white;
 }
 
 h1 {
@@ -37,14 +43,15 @@ h1 {
 }
 
 
-main h1 {
+.intro h1 {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
-    color: white;
-    font-size: 50px;
+    color: rgb(1, 0, 11);
+    font-size: 45px;
     line-height: 1.5;
     margin: 0;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
+ 
 }
 
 
@@ -263,7 +270,7 @@ footer p {
     font-size: 12px;
    
    }
-}
+
 
 
 
