@@ -5,7 +5,7 @@ header {
     background-size: cover;
     color: white;
     text-align: center;
-    padding: 200px 0;
+    padding: 250px 0;
   
 }
 
@@ -19,20 +19,74 @@ body {
 }
 
 .container {
-    margin: 0 auto;
+   
     max-width: 1400px;
-    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    
 }
 
-section {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 100px 0;
-    margin-left: 20px;
+.grid-2-columns {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+    grid-gap: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
 }
+
+
+
+ .grid-3-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 35px;
+    grid-gap: 35px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+
+.side-by-side {
+  display: flex;
+  gap: 60px;
+  width: 620px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-left: 10px;
+}
+
+.side-by-side div {
+    flex: 1;
+}
+
 
 main {
     background-color: white;
+  
+}
+
+.country {
+color: rgb(1, 0, 11);
+padding: 0%;
+
+}
+
+main h1 {
+    font-size: 50px;
+}
+
+main h2 {
+    text-align: center;
+    margin-bottom: 1px;
+    color: lightslategrey;
+     font-family: 'Lato', sans-serif;
+        font-weight: 700;
+        font-style: uppercase;
+         letter-spacing: 2px;
+         padding: 0px;
+         margin-bottom: 20px;
 }
 
 h1 {
@@ -110,7 +164,9 @@ header a {
 }
 
 
-
+main {
+ padding: 90px;
+}
 
 footer {
      
@@ -123,17 +179,23 @@ footer {
      font-size: 14px;
      padding: 100px 0;
      margin: 0 auto;
-     max-width: 1400px;
      width: 100%;
        
 }
 
+footer h2 {
+    font-size: 20px;
+    font-weight: 700;
+        padding: 0px; 
+     margin-bottom:20px;
+     line-height: 0%;
+}
 
 footer h4 {
     font-size: 14px;
     font-weight: 700;
         padding: 0px;
-         margin-top: 29px;
+
      margin-bottom:0px;
      line-height: 0%;
 }
@@ -174,16 +236,23 @@ footer ul {
     margin: 0px;
 }
 
-
-.grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 35px;
-    grid-gap: 35px;
-    padding-left: 20px;
-    padding-bottom: 10px;
+.country {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: rgb(1, 0, 11);
+    font-size: 45px;
+    text-align: center;
+    line-height: 1.5;
+    margin: 0;
+    padding-bottom: 30px;
 }
 
+.img-responsive {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+  margin-right: 35px;
+}
 
 
 
@@ -210,7 +279,7 @@ footer ul {
     }
 
 section {
-    max-width: 1200px;
+    max-width: 900px;
     margin: 0 auto;
     margin-left: 19px;
 }
@@ -220,8 +289,6 @@ section {
         font-size: 15px;
         padding: 10px 0;
     }
-
-
 
 
 
@@ -235,6 +302,8 @@ main h1 {
     padding-bottom: 20px;
 
 
+}
+
     p {
     font-size: 13px;
     line-height: 1.5;
@@ -242,8 +311,15 @@ main h1 {
     font-family: 'Lato', sans-serif;
 }
 
-}
 
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+    display: block;
+  border-radius: 10px;
+}
 
 
 footer h2 {
