@@ -273,7 +273,7 @@ footer ul {
 
   .paris-image {
     width: 100%;
-    height: 590px !important;
+    height: 890px !important;
     object-fit: cover;
     display: block;
     margin-left: 15px;
@@ -287,6 +287,15 @@ footer ul {
     display: block;
      border-radius: 10px;
     
+}
+.secondary img {
+    
+    max-width: 250px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+      grid-template-columns: 1fr 1fr 1fr;
+
 }
 
   header {
