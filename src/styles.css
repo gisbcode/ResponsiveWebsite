@@ -11,15 +11,6 @@ body {
 }
 
 
-.paris-image,
-.den-image,
-.img-responsive {
-  display: block !important;
-  width: 100% !important;
-  min-height: 200px !important;
-  border: 2px solid red;
-}
-
 
 
 
