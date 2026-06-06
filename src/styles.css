@@ -406,6 +406,36 @@ footer p {
 
 }
 
+
+@media (max-width: 1024px) {
+
+  .grid-2-columns {
+    grid-template-columns: 1fr;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .side-by-side {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .side-by-side div {
+    flex: 1;
+    max-width: 340px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
 /* =========================
    MOBILE
 ========================= */
@@ -473,7 +503,9 @@ footer p {
     text-align: center;
   }
 
-
+.country h1 {
+  font-size: 25px;
+}
 
 
 .food-card {
@@ -510,7 +542,8 @@ footer p {
 
 .instagram-media {
   width: 100% !important;
-  max-width: 500px;
+    object-fit: cover;
+  max-width: 100px;
   margin: 10px auto;
   display: center;
 }
@@ -582,7 +615,7 @@ header a {
   }
 
   .country {
-    font-size: 24px;
+    font-size: 19px;
   }
 
   p,
