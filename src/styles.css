@@ -2,7 +2,6 @@
 
 * {
   box-sizing: border-box;
-}
 
 body {
   margin: 0;
@@ -129,13 +128,6 @@ main {
   object-fit: cover;
   border-radius: 10px;
 }
-
-
-
-
-
-
-
 
 
 
@@ -341,11 +333,51 @@ footer p {
     grid-template-columns: 1fr;
 }
 
+
+.food-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.food-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.card-images img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.food-card h2 {
+  text-align: center;
+  margin: 20px 0 15px;
+}
+
+.food-card p {
+  text-align: left;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+
+
 /* =========================
    MOBILE
 ========================= */
 
-@media (max-width: 768px) {
+@media (max-width: 770px) {
 
   header {
     padding: 100px 20px;
@@ -368,7 +400,7 @@ footer p {
   }
 
 
-side-by-side {
+.side-by-side {
     grid-template-columns: 1fr;
   }
 
@@ -405,14 +437,46 @@ side-by-side {
     grid-template-columns: 1fr;
   }
 
-  .card-images img {
-    height: 420px;
-  }
+  
 
   .learn-more {
     width: 100%;
     text-align: center;
   }
+
+
+
+
+.food-card {
+  background: white;
+  border-radius: 12px;
+  padding: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-images {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+
+}
+
+.card-images img {
+  width: 100%;
+  height: 330px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.food-card h2 {
+  text-align: center;
+  margin: 20px 0 15px;
+}
+
+.food-card p {
+  text-align: left;
+  margin-bottom: 20px;
+  line-height: 1.6;
 }
 
 
@@ -426,14 +490,42 @@ side-by-side {
    SMALL PHONES
 ========================= */
 
-@media (max-width: 480px) {
+@media (max-width: 400px) {
 
   header h1 {
-    font-size: 34px;
+    font-size: 25px;
+  }
+
+
+
+header h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 8px;
+  letter-spacing: 3px;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+header h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  margin: 20px 0;
+}
+
+header a {
+    font-size: 8px;
+      padding: 10px 15px;
+}
+
+
+  .places,
+ h2 {
+    font-size: 19px;
   }
 
   .country {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   p,
@@ -449,4 +541,18 @@ side-by-side {
     width: 100%;
     text-align: center;
   }
+
+
+.card-images img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.food-card h2 {
+  text-align: center;
+  margin: 20px 0 15px;
+  font-size: 18px;
+}
 }
