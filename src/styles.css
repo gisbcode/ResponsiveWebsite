@@ -284,12 +284,14 @@ footer p {
   background: #3f98b0;
 }
 
-.bottom-footer h4 {
-  margin-bottom: 10px;
+.bottom-footer h4, p {
   font-family: "Lato", sans-serif;
+  font-size: 14px;
+  padding: 0;
 }
 
-/* =========================
+
+/* ======================
    TABLET
 ========================= */
 
@@ -555,4 +557,12 @@ header a {
   margin: 20px 0 15px;
   font-size: 18px;
 }
+
+.bottom-footer h4, p {
+  font-family: "Lato", sans-serif;
+  font-size: 10px;
+
+}
+
+
 }
